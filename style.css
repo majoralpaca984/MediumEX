@@ -1,0 +1,253 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    margin: 10px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    background-color: #f8f7f7;
+   }
+
+.logo2{
+    padding: 10px
+}
+
+header .membership {
+    background-color: white;
+    color: #0c0b0b;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+header .T {
+    background-color: #e11818;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #151212;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    max-width: 1330px;
+
+}
+
+.menu-item {
+    margin: 0 15px;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+}
+
+.menu-item.active {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+
+.container {
+    display: flex;
+    max-width: 1350px;
+    
+ }
+
+.column1 {
+    background-color: white;
+    width: 60%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.column2 {
+    background-color: white;
+    width: 40%;
+    padding: 20px;
+}
+.column1{
+    border-right: 1px solid #e0e0e0;
+}
+article {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+article img.article-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-left: 20px; 
+}
+
+article h3 {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+article h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+article p {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.article span{
+    font-size: 5px;
+}
+.column2 .twitter {
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+    }
+
+.column2 .twitter button {
+    background-color: white;
+    color: #110b0b;
+    padding: 10px 15px;
+    border: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.recommended-topics {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.recommended-topics h3 {
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.recommended-topics ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+.recommended-topics li {
+    background-color: #e0e0e0;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.who-to-follow {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.who-to-follow h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.person img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.person span {
+    font-size: 14px;
+    color: #333;
+}
+
+.person button {
+    margin-left: auto;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.recently-saved {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.recently-saved h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.recently-saved h5 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.recently-saved p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.recently-saved span {
+    color: #999;
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer a {
+    display: flex;
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 50px;
+}
