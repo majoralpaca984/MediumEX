@@ -119,8 +119,17 @@ article p {
     font-size: 15px;
     margin-bottom: 8px;
 }
-.article span{
-    font-size: 5px;
+.container2{
+    font-size: 13px;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: #666;
+}
+.container2 button{
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #e8e5e5;
+    border: #ddd;
 }
 
 .column2 .twitter {
